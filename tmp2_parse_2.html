@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   캐시워크 - 적립형 만보기 첫화면
+  </title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+  <meta content="3" name="next-head-count"/>
+  <meta charset="utf-8"/>
+  <meta content="noindex, nofollow" name="robots"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <link href="/images/favicon/apple-icon-120x120.png" rel="apple-touch-icon-precomposed"/>
+  <link href="/images/favicon/apple-icon-180x180.png" rel="apple-touch-icon-precomposed" sizes="180x180"/>
+  <link rel="../"/>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link as="style" href="/css/font-pretendard.css" rel="stylesheet preload" type="text/css"/>
+  <link as="style" href="/css/font-lato.css" rel="stylesheet preload" type="text/css"/>
+  <link as="font" crossorigin="same-origin" href="/fonts/Pretendard-Black.subset.woff2" rel="preload"/>
+  <link as="font" crossorigin="same-origin" href="/fonts/Pretendard-Regular.subset.woff2" rel="preload"/>
+  <link as="font" crossorigin="same-origin" href="/fonts/Pretendard-Bold.subset.woff2" rel="preload"/>
+  <link as="font" crossorigin="same-origin" href="/fonts/lato-v20-latin-regular.woff2" rel="preload"/>
+  <link as="font" crossorigin="same-origin" href="/fonts/lato-v20-latin-900.woff2" rel="preload"/>
+  <link as="font" crossorigin="same-origin" href="/fonts/lato-v20-latin-700.woff2" rel="preload"/>
+  <link as="font" crossorigin="same-origin" href="/fonts/Pretendard-Medium.subset.woff2" rel="preload"/>
+  <link href="/.well-known/assetlinks.json" rel="assetlinks.json file"/>
+  <script id="datadog-rum">
+   (function(h,o,u,n,d) {
+               h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+               d=o.createElement(u);d.async=1;d.src=n
+               n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
+             })(window,document,'script','https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js','DD_RUM')
+             window.DD_RUM.onReady(function() {
+               window.DD_RUM.init({
+                 clientToken: 'pub903e709a09b04b4f6ff794985c6d841d',
+                 applicationId: 'b295291c-d67d-4ee9-9c6e-c50c4e8db426',
+                 site: 'datadoghq.com',
+                 service: 'next-app-router-rum',
+                 env: 'production',
+                 version: '1.0.0', 
+                 sessionSampleRate: 2,
+                 sessionReplaySampleRate: 100,
+                 trackUserInteractions: true,
+                 trackResources: true,
+                 trackLongTasks: true,
+                 defaultPrivacyLevel: 'allow',
+               });
+             });
+  </script>
+  <noscript data-n-css="">
+  </noscript>
+  <script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/webpack-356f9eee053add8d.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/framework-314c182fa7e2bf37.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/main-b6dee586d3ba3a85.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/pages/_app-35936b7ae61250d2.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/ea88be26-f1509bff54fc6f7a.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/9260-072802acfd1f3d75.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/9755-8bf941b81e3c8393.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/5216-0ffd773594662114.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/137-d19d0a3b43702c90.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/pages/shop/event/%5BeventNo%5D-996813afdda0927c.js">
+  </script>
+  <script defer="" src="/_next/static/yd8rvbSqQ58y77npZxNq_/_buildManifest.js">
+  </script>
+  <script defer="" src="/_next/static/yd8rvbSqQ58y77npZxNq_/_ssgManifest.js">
+  </script>
+  <style data-styled="" data-styled-version="5.3.5">
+   :root{--color-main:#ed3e14;--color-sub:#ffcc00;--color-main-text:#ed3e14;--color-main-900:#ee512b;--color-main-800:#f16543;--color-main-300:#f9c5b8;--color-main-80:#fef0ed;--color-main-30:#fff8fa;--color-orange:#fe3837;--color-black:#000000;--color-black-800:#333333;--color-black-630:#606060;--color-black-550:#757575;--color-black-300:#b2b2b2;--color-black-400:#999999;--color-black-150:#d9d9d9;--color-black-50:#f2f2f2;--color-bg:#f7f7f7;}/*!sc*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,button,input{margin:0;padding:0;border:0;font:inherit;font-family:Pretendard,'Lato',-apple-system,BlinkMacSystemFont,helvetica,Apple SD Gothic Neo,sans-serif;vertical-align:baseline;box-sizing:border-box;}/*!sc*/
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}/*!sc*/
+button{border:none;background:#ddd;}/*!sc*/
+a{-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-text-decoration:none;text-decoration:none;color:#000;}/*!sc*/
+b{font-weight:bold;}/*!sc*/
+input[type='search']::-ms-clear{display:none;width:0;height:0;}/*!sc*/
+input[type='search']::-ms-reveal{display:none;width:0;height:0;}/*!sc*/
+input[type='search']::-webkit-search-decoration,input[type='search']::-webkit-search-cancel-button,input[type='search']::-webkit-search-results-button,input[type='search']::-webkit-search-results-decoration{display:none;}/*!sc*/
+input[type='search'],input[type='text'],input[type='password'],input[type='tel']{-webkit-appearance:none;-moz-appearance:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;}/*!sc*/
+input{box-sizing:border-box;outline:none !important;-webkit-appearance:none;-moz-appearance:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;}/*!sc*/
+input,textarea,select{font-size:16px;-webkit-appearance:none;-moz-appearance:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;}/*!sc*/
+button{outline:none;}/*!sc*/
+ol,ul{list-style:none;}/*!sc*/
+blockquote,q{quotes:none;}/*!sc*/
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}/*!sc*/
+table{border-collapse:collapse;border-spacing:0;}/*!sc*/
+img{width:100%;}/*!sc*/
+html{background-color:#fff;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text;-webkit-tap-highlight-color:rgba(255,255,255,0.4);}/*!sc*/
+body{line-height:1;max-width:664px;width:100%;margin:0px auto;-webkit-text-size-adjust:none;}/*!sc*/
+::-webkit-input-placeholder{color:#d8d8d8;font-size:13px;}/*!sc*/
+::-moz-placeholder{color:#d8d8d8;font-size:13px;}/*!sc*/
+:-ms-input-placeholder{color:#d8d8d8;font-size:13px;}/*!sc*/
+::placeholder{color:#d8d8d8;font-size:13px;}/*!sc*/
+body.__modal_background_scroll_stop{overflow:hidden !important;}/*!sc*/
+.win-max-width{max-width:664px;}/*!sc*/
+.font-init{font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','Apple SD Gothic Neo',Arial,sans-serif !important;}/*!sc*/
+.line-clamp-1,.line-clamp-2,.line-clamp-3,.line-clamp-4,.line-clamp-5{word-wrap:break-word;word-break:break-all;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;}/*!sc*/
+.line-clamp-2{-webkit-line-clamp:2;}/*!sc*/
+.line-clamp-3{-webkit-line-clamp:3;}/*!sc*/
+.line-clamp-4{-webkit-line-clamp:4;}/*!sc*/
+.line-clamp-5{-webkit-line-clamp:5;}/*!sc*/
+.fx-center{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}/*!sc*/
+.infinity-point{position:relative;bottom:160px;left:0;right:0;height:1px;visibility:hidden;}/*!sc*/
+@media screen and (min-width:600px){.responsive-2n{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.responsive-2n > div{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:49%;padding:0 5px;}.responsive-3n > div{width:33.3% !important;padding:0 5px !important;}}/*!sc*/
+.img-cover{position:absolute;top:0;left:0;width:100%;height:100%;display:block;object-fit:cover;}/*!sc*/
+img{-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;-o-user-drag:none;-webkit-user-drag:none;-moz-user-drag:none;-ms-user-drag:none;user-drag:none;}/*!sc*/
+.a11y{position:absolute;top:0;width:1px;height:1px;font-size:1px;overflow:hidden;opacity:0;}/*!sc*/
+data-styled.g1[id="sc-global-joPPLO1"]{content:"sc-global-joPPLO1,"}/*!sc*/
+.eTxVsp{padding-top:44px;height:100%;min-height:100vh;}/*!sc*/
+data-styled.g10[id="sc-e1e12415-0"]{content:"eTxVsp,"}/*!sc*/
+.gFFlSZ{display:none;bottom:16px;position:fixed;right:16px;width:52px;height:52px;border:1px solid #ddd;background:#fff;border-radius:50%;z-index:100;}/*!sc*/
+.gFFlSZ image{padding:5px 4px;}/*!sc*/
+data-styled.g14[id="sc-c7c5aeab-0"]{content:"gFFlSZ,"}/*!sc*/
+  </style>
+ </head>
+ <body data-env="production">
+  <div id="__next">
+   <section class="sc-e1e12415-0 eTxVsp" style="padding-top:0">
+    <h1 class="a11y">
+     기획전
+    </h1>
+    <button class="sc-c7c5aeab-0 gFFlSZ top-button">
+     <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%">
+      <span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%">
+       <img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2724%27%20height=%2724%27/%3e" style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"/>
+      </span>
+      <img alt="top-button" data-nimg="intrinsic" decoding="async" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/>
+      <noscript>
+       <img alt="top-button" data-nimg="intrinsic" decoding="async" loading="lazy" src="/images/icon/ic-cd-arrow-up-g.svg" srcset="/images/icon/ic-cd-arrow-up-g.svg 1x, /images/icon/ic-cd-arrow-up-g.svg 2x" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"/>
+      </noscript>
+     </span>
+    </button>
+   </section>
+  </div>
+  <script id="__NEXT_DATA__" type="application/json">
+   {"props":{"pageProps":{"initialZustandState":{"intoAPP":{"token":"CASHWALK.2ca254b4ab1d8dd8ce7603a2a149f63a6e80edfbbe2e1e7f","device":"android","model":"SM-G965N","appVersion":"1.26.46","serviceCode":"cashwalk","login":false,"_ACCESS_TOKEN":"CASHWALK.2ca254b4ab1d8dd8ce7603a2a149f63a6e80edfbbe2e1e7f","_ACCESS_TOKEN_SHOPBY":"OvvDVpYOL-Ecct5oTGWEPN8_1l8","shopByUserId":"66250d26cb66260d34b0da3d","serviceConfig":{"serviceName":"cashwalk","sectionCode":{"topWideBanner":"007","iconBanner":"001","todayCashdeal":"152863","mediumBanners":["004","005","009","010","011","012","013","014","015","016","017","018"],"events":["13759","14177","14173","14527","14489","14913","14899","14743","14901","13845"],"squareBottomBanner":"006","popularCategoryBanner":"002","categoryEventBanner":"003","searchFilter":["filter-price","filter-delivery","filter-category","filter-brand"],"popupNos":[7137]},"firebaseConfig":{"APIKEY":"AIzaSyDKbq4-CYTFgbo-yaEOEA5lIQAlAqJ_HFM","prefixLinks":"https://cashwalk.page.link/?link=","androidPackage":"com.cashwalk.cashwalk","iosPackage":"com.cashwalk.cashwalk","appstoreId":1220307907},"serviceScheme":"cwapp://","tokenPrefix":"CASHWALK."}},"shopInfo":{},"pageInfo":{"title":"기획전","headerType":"NONE"}},"eventNo":"13759","pageInfo":{"title":"기획전","headerType":"NONE"}}},"page":"/shop/event/[eventNo]","query":{"eventNo":"13759"},"buildId":"yd8rvbSqQ58y77npZxNq_","isFallback":false,"isExperimentalCompile":false,"gip":true,"appGip":true,"scriptLoader":[]}
+  </script>
+ </body>
+</html>
